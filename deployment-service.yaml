@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: dotnetworld
-        image: microdepp.azurecr.io/hello-world:BuildId
+        image: microdepp.azurecr.io/hello-world:Build.BuildId
         ports:
         - containerPort: 80
 ---
