@@ -5,7 +5,7 @@ EXPOSE 443
 
 FROM microsoft/dotnet:2.1-sdk AS build
 WORKDIR /src
-COPY ["WebApplication3.csproj", "src/"]
+COPY ["WebApplication3/WebApplication3.csproj", "src/"]
 RUN dotnet restore "src/WebApplication3.csproj"
 COPY . .
 WORKDIR "/src"
