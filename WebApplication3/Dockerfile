@@ -12,7 +12,7 @@ WORKDIR "/src"
 RUN dotnet build "WebApplication3.csproj" -c Release -o /app
 
 FROM build AS publish
-RUN dotnet publish "WebApplication3.csproj" -c Release -o /app
+RUN dotnet publish "src/WebApplication3.csproj" -c Release -o /app
 
 FROM base AS final
 WORKDIR /app
