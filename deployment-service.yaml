@@ -24,6 +24,6 @@ spec:
     app: Hello-world
   type: LoadBalancer
   ports:
-    - name: my port
+    - name: my-port
       port: 8080
       targetPort: 80
