@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: dotnetworld
-        image: microdepp.azurecr.io/mydotnetcore:latest
+        image: microdepp.azurecr.io/hello-world
         ports:
         - containerPort: 80
 ---
